@@ -4,9 +4,9 @@ import { useSelector } from 'react-redux';
 // import { Container } from './styles';
 
 const Catalog: React.FC = () => {
-    const state = useSelector(state => state);
+    const catalog = useSelector(state => state);
 
-    console.log(state);
+    console.log(catalog);
   return (
       <h1>Hello World</h1>
   );
